@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Poker Hand</title>
+	<link rel="icon" href="images/poker.jpg" type="image/png" sizes="16x16">
+	<script src="script.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<style>
+		.spacing {
+			padding-bottom: 150px;
+		}
+	</style>
+</head>
+<body>
+
+<div class="container-fluid">
+<div class="jumbotron text-center">
+	<h1>Poker!</h1>
+</div>
+	<div class="row; text-center">
+		<div class="col-md-2"><h1>Player 1:</h1></div>
+		<div class="col-md-2"><img src='images/blank.jpg' id="1"></div>
+		<div class="col-md-2"><img src='images/blank.jpg' id="2"></div>
+		<div class="col-md-2"><img src='images/blank.jpg' id="3"></div>
+		<div class="col-md-2"><img src='images/blank.jpg' id="4"></div>
+		<div class="col-md-2; spacing"><img src='images/blank.jpg' id="5"></div>
+	</div>
+	<div class="row; text-center">
+		<div class="col-md-2"><h1>Player 2:</h1></div>
+		<div class="col-md-2"><img src='images/blank.jpg' id="6"></div>
+		<div class="col-md-2"><img src='images/blank.jpg' id="7"></div>
+		<div class="col-md-2"><img src='images/blank.jpg' id="8"></div>
+		<div class="col-md-2"><img src='images/blank.jpg' id="9"></div>
+		<div class="col-md-2"><img src='images/blank.jpg' id="10"></div>
+	</div>
+</div>
+<button onclick="timer()" class='btn btn-primary btn-lg' id="button">deal!</button>
+<div id="check"></div>
+</body>
+</html>
